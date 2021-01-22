@@ -68,4 +68,4 @@ ggplot(mtcars) +
 
 * [coolbutuseless/geomlime](https://github.com/coolbutuseless/geomlime), from where most of the code is copied
 * Tidyverse team for maintaining and developing `ggplot2`
-* [@taber](https://twitter.com/taber/status/1351938194024124419), for providing the transparent PNG of Bernie Sanders
+* [taber](https://twitter.com/taber/status/1351938194024124419), for providing the transparent PNG of Bernie Sanders
