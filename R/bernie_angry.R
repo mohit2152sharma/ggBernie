@@ -19,7 +19,7 @@ geom_bernie_angry <- function(mapping     = NULL,
     data        = data,
     mapping     = mapping,
     stat        = stat,
-    geom        = GeomBernie,
+    geom        = GeomBernieAngry,
     position    = position,
     show.legend = show.legend,
     inherit.aes = inherit.aes,
@@ -42,8 +42,8 @@ geom_bernie_angry <- function(mapping     = NULL,
 #' @import grid
 #' @export
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-GeomBernie <- ggplot2::ggproto(
-  "GeomBernie", ggplot2::Geom,
+GeomBernieAngry <- ggplot2::ggproto(
+  "GeomBernieAngry", ggplot2::Geom,
   required_aes = c("x", "y"),
   non_missing_aes = c("size"),
   default_aes = ggplot2::aes(
